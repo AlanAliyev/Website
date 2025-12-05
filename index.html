@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover South Korea - learnmoreaboutsk.ca</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FAF8F5;
+
+        }
+        .korea-blue { background-color: #262626; }
+        .korea-red { background-color: #C44F54; }
+        .bg-hero {
+
+            background-image: url('img/seoul.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bg-culture {
+
+            background-image: url('https://source.unsplash.com/random/1920x1080/?gyeongbokgung-palace,hanbok');
+            background-size: cover;
+            background-position: center;
+        }
+        .bg-nature {
+            background-image: url('https://source.unsplash.com/random/1920x1080/?jeju-island,mountain');
+        }
+        .background-section {
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            transition: all 0.5s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="korea-blue sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#" class="text-white text-2xl font-extrabold uppercase tracking-widest">
+                    learnmoreaboutsk.ca
+                </a>
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                    <a href="#intro" class="text-white px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out">
+                        Intro
+                    </a>
+                    <a href="#culture" class="text-white px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out">
+                        Culture
+                    </a>
+                    <a href="#nature" class="text-white px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out">
+                        Nature
+                    </a>
+                    <a href="#works-cited" class="text-white px-3 py-2 rounded-md text-sm font-medium transition duration-300 ease-in-out">
+                        Works Cited & Credits
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="background-section bg-hero h-screen flex items-center justify-center text-center relative">
+        <div class="absolute inset-0 bg-white bg-opacity-85 transition duration-500 ease-in-out"></div>
+        
+        <div class="relative z-10 p-8 max-w-4xl mx-auto rounded-xl bg-transparent">
+            <h1 class="text-4xl sm:text-6xl font-black text-gray-900 mb-6 uppercase tracking-wider drop-shadow-lg">
+                South Korea:<br>A Land Of Many Hidden Gems
+            </h1>
+            
+            <a href="#intro" class="inline-block px-12 py-5 korea-red text-white text-xl font-bold rounded-full shadow-2xl transition duration-300 ease-in-out">
+                Dive In
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="intro" class="py-16 md:py-24 bg-white transition duration-500">
+            <div class="max-w-7xl mx-auto px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">
+                        Introduction: Seoul - The Heart and Soul of South Korea
+                    </h2>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-10 items-center">
+                    <div>
+                        <h3 class="text-3xl font-bold text-white korea-blue p-2 rounded-lg mb-4">
+                            A Futuristic Society:
+                        </h3>
+                        <p class="text-gray-700 mb-6 leading-relaxed">
+                            Seoul is often called the world's most connected city, driving global advancements in semiconductor technology, robotics, and smart infrastructure. Its relentless pursuit of innovation has made it a model for future cities.
+                        </p>
+                        <div class="text-gray-700 mb-6 leading-relaxed">
+                            <p class="mb-4">Seoul is the capital city of South Korea, located on the Han River, near the northwestern part of the country. Seoul is not only a megacity, but also home to many exciting landmarks to visit, such as the:</p>
+                            <ol class="list-decimal ml-5 space-y-2">
+                                <li>
+
+                                    <a href="pages/destinations.html#gyeongbokgung-palace" class="text-blue-600 underline hover:text-blue-800">Gyeongbokgung Palace</a>: Known for being the most beautiful and biggest of the Five Grand Palaces.
+                                </li>
+                                <li>
+
+                                    <a href="pages/destinations.html#n-seoul-tower" class="text-blue-600 underline hover:text-blue-800">N Seoul Tower</a>: A transmission tower popular for its futuristic and colorful look.
+                                </li>
+                                <li>
+
+                                    <a href="pages/destinations.html#lotte-world-tower" class="text-blue-600 underline hover:text-blue-800">Lotte World Tower</a>: Renowned for being one of the tallest towers in the world, and home to a beautiful observation deck offering incredible views.
+                                </li>
+                                <li>
+
+                                    <a href="pages/destinations.html#dongdaemun-design-plaza" class="text-blue-600 underline hover:text-blue-800">Dongdaemun Design Plaza</a>: A hot spot for both fashion and design.
+                                </li>
+                                <li>
+
+                                    <a href="pages/destinations.html#cheonggyecheon-stream" class="text-blue-600 underline hover:text-blue-800">Cheonggyecheon Stream</a>: A must-visit landmark where you will find a large stream flowing down to the heart of downtown Seoul.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="rounded-xl shadow-2xl overflow-hidden transition duration-500 ease-in-out cursor-pointer">
+                        <img src="img/seoul.png" 
+                            alt="Vibrant street scene in Seoul, representing modern Korean life." 
+                            class="w-full h-80 object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="culture" class="background-section bg-culture py-16 md:py-32 my-12 relative transition duration-500">
+            <div class="absolute inset-0 bg-black bg-opacity-50 transition duration-500 ease-in-out"></div>
+            
+            <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-white">
+                <div class="md:w-4/5 lg:w-2/3 p-8 rounded-xl bg-gray-900 bg-opacity-70 shadow-2xl transition duration-500 hover:bg-opacity-80 mx-auto">
+                    <h2 class="text-4xl font-extrabold mb-6 uppercase text-yellow-500">
+                        The Origin of South Korea
+                    </h2>
+                    
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <div>
+                                <strong class="font-bold">The History of Korea</strong>
+                                <span class="block text-sm">South Korea wasn't originally like how it is now, it was originally unified as one nation known as Korea, named from the Ancient Goryeo Dynasty, in 918-1392. Korea was a thriving kingdom for many centuries. South Korea and North Korea came about only in the mid-20th century during World War II and the Korea War. The once unified nation split up, as the South and the North. The South represents the democratic country we know today.</span>
+                                <span class="block text-sm mt-2">The National Flag of South Korea, is called the Taegeukgi. The flag represents every all aspects of the universe and the people's beliefs. The white background symbolizes purity, peace, and light. The red and blue, or the Taegeuk Circle, symbolizes harmony and balance. And finally, the four black trigrams or the Gwae, symbolizes elements for each trigram, heaven, earth, water and fire.</span>
+                                <img src="img/krflag.png">
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                             <div class="w-full">
+                                <strong class="font-bold">The Culture of South Korea</strong>
+                                <ul class="list-disc ml-4 mt-2 space-y-2 text-sm">
+                                    <li>
+                                        <strong class="font-semibold">The Language:</strong> 
+                                        <!-- LINK UPDATED -->
+                                        <span class="text-sm">The official language is Korean, and is written using the Hangeul alphabet, invented by King Sejong the Great in the 15th century.</span> 
+
+                                    </li>
+                                    <li>
+                                        <strong class="font-semibold">Traditions and Customs:</strong> <span class="text-sm">Korea culture is influenced by Confucianism, an ideology originated from China by Confucius, a famous philosopher. Confucianism dives deep into respecting the elders, family, and social peace. The customs here involve honoring ancestors and celebrating lunar holidays, like Seollal, and Chuseok.</span> 
+                                    </li>
+                                    <li>
+                                        <strong class="font-semibold">The Food:</strong> <span class="text-sm">Korean cuisine, or Hansik, follows a healthy dietary balance and communal eating, such as Kimchi, a fermented mix of vegetables made with Nappa cabbage, stews and soups with meat served and rice for the side.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="nature" class="py-16 md:py-24 bg-white transition duration-500">
+            <div class="max-w-7xl mx-auto px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-extrabold text-gray-900 mb-4">
+                        Breathtaking Natural Wonders
+                    </h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Discover the serene beauty and majestic landscapes of South Korea, from volcanic islands to tranquil forests and ancient peaks.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="rounded-xl shadow-lg p-6 bg-gray-50 hover:bg-gray-100 transition duration-500 ease-in-out cursor-pointer">
+                        <img src="img/buk.png" alt="Mountain landscape placeholder" class="rounded-lg mb-4 w-full h-40 object-cover">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+
+                            <a href="pages/destinations.html#bukhansan-national-park" class="text-blue-600 underline hover:text-blue-800">Bukhansan National Park</a>
+                        </h3>
+                        <p class="text-gray-600 text-sm">Bukhansan National Park a popular gem for hiking, and enjoying the view with friends or family. Moreover, visiting this park also gives you the opportunity to visit ancient infrastructures, like the Bukhansanseong Fortress.</p>
+                    </div>
+                    <div class="rounded-xl shadow-lg p-6 bg-gray-50 hover:bg-gray-100 transition duration-500 ease-in-out cursor-pointer">
+                        <img src="img/jeju.png" 
+                            alt="Island landscape placeholder" class="rounded-lg mb-4 w-full h-40 object-cover">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+
+                            <a href="pages/destinations.html#jeju-island" class="text-blue-600 underline hover:text-blue-800">Jeju Island</a>
+                        </h3>
+                        <p class="text-gray-600 text-sm">Jeju Island is must visit when visiting South Korea. Protected by UNESCO, Jeju Island is home to its beautiful nature, with fresh fruit and amazing fun activities to do over there, like ziplining, resorts, and beautiful beaches.</p>
+                    </div>
+                    <div class="rounded-xl shadow-lg p-6 bg-gray-50 hover:bg-gray-100 transition duration-500 ease-in-out cursor-pointer">
+                        <img src="img/nami island.png" alt="Coastal area placeholder" class="rounded-lg mb-4 w-full h-40 object-cover">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+
+                            <a href="pages/destinations.html#nami-island" class="text-blue-600 underline hover:text-blue-800">Nami Island</a>
+                        </h3>
+                        <p class="text-gray-600 text-sm">Nami Island is widely popular place where many come and even film movies/shows there. The island is uniquely known for its moon shaped appearance, and offers surreal sceneries to capture in all seasons.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="works-cited" class="korea-blue py-12 text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+
+            <a href="pages/works cited & credits.html" class="mt-4 inline-block text-xl font-semibold text-gray-300">
+                Works Cited & Credits
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
